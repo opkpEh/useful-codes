@@ -1,0 +1,4 @@
+#!/bin/bash
+pig(){
+  ping -c 1 -W 2 youtube.com > /dev/null 2>&1 && echo true || echo false
+}
